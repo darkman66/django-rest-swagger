@@ -80,10 +80,7 @@ class SwaggerUIView(View):
                     json.dumps(getattr(settings, 'CSRF_COOKIE_NAME', 'csrftoken'))),
             }
         }
-        response = render_to_response(
-            template_name, RequestContext(request, data))
-
-        return response
+        return render_to_response(template_name, data)
 
     def has_permission(self, request):
         if rfs.SWAGGER_SETTINGS.get('is_superuser') and \
