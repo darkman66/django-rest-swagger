@@ -1,6 +1,6 @@
 # Django REST Swagger
 
-[![build-status-badge]][build-status]
+[![Build Status](https://travis-ci.org/darkman66/django-rest-swagger.svg?branch=stable%2F0.3.django2)](https://travis-ci.org/darkman66/django-rest-swagger)
 [![pypi-version]][pypi]
 [![license-badge]][license]
 [![docs-badge]][docs]
