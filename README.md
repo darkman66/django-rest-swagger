@@ -5,7 +5,11 @@
 [![license-badge]][license]
 [![docs-badge]][docs]
 
-####An API documentation generator for Swagger UI and Django REST Framework
+# Purpose
+
+Intention of this for it is to mak branch 0.3.x stable to work with Django 2.2 anf Python 3.7+ Yeah, I know...old branch but maybe some of you same as me got stuck with old open api and can't easily upgrade. I hope i helped to some of you with this fork :)
+
+# An API documentation generator for Swagger UI and Django REST Framework
 
 This project is built on the [Django REST Framework Docs](https://github.com/marcgibbons/django-rest-framework-docs) and uses the lovely [Swagger from Wordnik](http://swagger.io) as an interface. This application introspectively generates documentation based on your Django REST Framework API code. Comments are generated in combination from code analysis and comment extraction. Here are some of the features that are documented:
 
